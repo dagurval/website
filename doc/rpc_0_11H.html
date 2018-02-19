@@ -1,0 +1,48 @@
+---
+layout: "base"
+title: doc.title
+description: doc.description
+---
+
+<div class="main" id="doc">
+  <section><div>
+      <h1>{% t doc.rpcreference %} &mdash; Bitcoin XT 0.11H </h1>
+      <section>
+        <div>
+          <h2>{% t doc.toc %}</h3>
+<h3>Mining</h3>
+      <ul><li><a href="#setgenerate">setgenerate</a></li></ul>
+        </div>
+      </section>
+      <section>
+        <div>
+        <h2 id="setgenerate">setgenerate generate ( genproclimit )</h2>
+        <p>Set 'generate' true or false to turn generation on or off.
+Generation is limited to 'genproclimit' processors, -1 is unlimited.
+          See the getgenerate call for the current setting.</p>
+        <p>
+          <pre style="font-family: Courier New;">
+Arguments:
+1. generate         (boolean, required) Set to true to turn on generation, off to turn off.
+2. genproclimit     (numeric, optional) Set the processor limit for when generation is on. Can be -1 for unlimited.
+
+Examples:
+
+Set the generation on with a limit of one processor
+> bitcoin-cli setgenerate true 1
+
+Check the setting
+> bitcoin-cli getgenerate
+
+Turn off generation
+> bitcoin-cli setgenerate false
+
+Using json rpc
+            > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "setgenerate", "params": [true, 1] }' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+            </pre>
+
+        </div>
+      </section>
+    </div>
+  </section>
+</div>
