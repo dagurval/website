@@ -7,6 +7,7 @@ base:
             title: "Часто задаваемые вопросы"
             text: "FAQ"
         takepart: "Примите&nbsp;участие"
+        
 
 index:
     title: "Добро пожаловать"
