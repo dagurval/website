@@ -18,7 +18,7 @@ index:
         usersicon: "Приоритет<br>за пользователями"
         communityicon: "Прагматичное<br>сообщество"
         info: |
-            Bitcoin XT - это воплощение полной ноды Bitcoin Cash (BCH) и Bitcoin (BTC). Bitcoin XP соответствует первоначальному видению Биткоина: простые, надёжные, дешёвые транзакции для каждого в мире. Изначально Bitcoin XT представлял собой простой набор патчей поверх Bitcoin Core, сейчас же Bitcoin XT - это независимо разрабатываемый форк. Для того, чтобы каждый мог проверить, что загружаемые файлы согласуются с <a href="https://github.com/bitcoinxt/bitcoinxt">исходным кодом</a>, используется метод <a href="https://github.com/bitcoinxt/gitian.sigs">Deterministic Builds</a>.
+            Bitcoin XT - это реализация полной ноды Bitcoin Cash (BCH) и Bitcoin (BTC). Bitcoin XT соответствует первоначальному видению Биткоина: простые, надёжные, дешёвые транзакции для каждого в мире. Изначально Bitcoin XT представлял собой простой набор патчей поверх Bitcoin Core, сейчас же Bitcoin XT - это независимо разрабатываемый форк. Для того, чтобы каждый мог проверить, что загружаемые файлы согласуются с <a href="https://github.com/bitcoinxt/bitcoinxt">исходным кодом</a>, используется метод <a href="https://github.com/bitcoinxt/gitian.sigs">Deterministic Builds</a>.
         download:
             title: "Скачать"
             aptrepo: "APT-репозиторий"
