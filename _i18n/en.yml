@@ -19,7 +19,7 @@ index:
         usersicon: "Users<br>Matter"
         communityicon: "Pragmatic<br>Community"
         info: |
-            Bitcoin XT is a full node implementation of a Bitcoin Cash (BCH) and Bitcoin (BTC). Bitcoin XT embraces Bitcoin's original vision of simple, reliable, low-cost transactions for everyone in the world. Bitcoin XT originated as a series of patches on top of Bitcoin Core and is now a independently maintained software fork. We do <a href="https://github.com/bitcoinxt/gitian.sigs">deterministic builds</a> so anyone can check the downloads correspond to the <a href="https://github.com/bitcoinxt/bitcoinxt">source code</a>.
+            Bitcoin XT is a full node implementation of a Bitcoin Cash (BCH) and Bitcoin (BTC). Bitcoin XT embraces Bitcoin's original vision of simple, reliable, low-cost transactions for everyone in the world. Bitcoin XT originated as a series of patches on top of Bitcoin Core and is now a independently maintained software. We do <a href="https://github.com/bitcoinxt/gitian.sigs">deterministic builds</a> so anyone can check the downloads correspond to the <a href="https://github.com/bitcoinxt/bitcoinxt">source code</a>.
         download:
             title: "Download now"
             aptrepo: "APT repository"
@@ -28,9 +28,9 @@ index:
     whatwestandfor:
         title: "What we stand for"
         missionstatement: |
-            The XT mission statement defines what the project believes is important: commitment to these principles are what differentiates us from Bitcoin Core. We try to follow Satoshi's original vision, as it is that vision which brought the Bitcoin community together.
+            The XT mission statement defines what the project believes is important: We try to follow Satoshi's original vision, as it is that vision which brought the Bitcoin community together. Сommitment to these principles are what differentiates us from Bitcoin Core. 
         scaling: |
-            <b>Scaling the network up to handle user demand is important</b>, even if that means the network changes along the way. <a href="http://satoshi.nakamotoinstitute.org/emails/cryptography/2/" title="Satoshi Nakamoto Institute - Re: Bitcoin P2P e-cash paper">It's what Satoshi wanted</a> and the idea of a global system used by ordinary people is what motivated many of us to join him.
+            <b>Scaling the network up to handle user demand is important</b>, even if that means the network changes along the way. <a href="http://satoshi.nakamotoinstitute.org/emails/cryptography/2/" title="Satoshi Nakamoto Institute - Re: Bitcoin P2P e-cash paper">It's what Satoshi wanted</a> and the idea of a global peer-to-peer cash system used by ordinary people is what motivated many of us to join.
         provideinfo: |
             <b>XT provides people with information they need</b>, even if using it requires them to make risk based decisions. For example:
         zeroconf: |
